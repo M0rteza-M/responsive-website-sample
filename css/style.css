@@ -17,13 +17,12 @@
     --success-color: #5cb85c;
     --error-color: #d9534f;
 }
-  
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
+}
   
 body {
     font-family: 'Vazir', sans-serif;
@@ -49,7 +48,7 @@ h2 {
   
 p {
     margin: 10px 0;
-  }
+}
   
 img {
     width: 100%;
@@ -79,7 +78,6 @@ img {
   
 .navbar .flex {
     justify-content: space-between;
-}
 
 /* Showcase */
 .showcase {
@@ -155,4 +153,3 @@ img {
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
 }
-  
