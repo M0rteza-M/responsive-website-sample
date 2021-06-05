@@ -61,6 +61,11 @@ pre {
   padding: 10px;
 }
 
+.hidden {
+    display: none;
+    height: 0;
+}
+
 
 /* Navbar */
 .navbar {
