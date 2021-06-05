@@ -9,11 +9,20 @@
     font-style: normal;
 }
 
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
+}
   
 body {
     font-family: 'Vazir', sans-serif;
@@ -39,8 +48,34 @@ h2 {
   
 p {
     margin: 10px 0;
-  }
+}
   
 img {
     width: 100%;
-  }
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+  
+.navbar ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+  
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+  
+.navbar .flex {
+    justify-content: space-between;
+}
