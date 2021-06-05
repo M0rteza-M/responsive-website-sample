@@ -54,6 +54,14 @@ img {
     width: 100%;
 }
 
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
@@ -227,7 +235,8 @@ img {
     text-align: right;
 }
 
-.features-head img {
+.features-head img, 
+.docs-head img {
   width: 200px;
   justify-self: flex-start;
 }
@@ -267,7 +276,32 @@ img {
     margin-left: 25px;
     margin-right: 0px
 }
+
+/* Docs */
+.docs-main h3 {
+    margin: 20px 0;
+}
   
+.docs-main .grid {
+    grid-template-columns: 2fr 1fr;
+    align-items: flex-start;
+}
+  
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+  
+.docs-main a:hover {
+    font-weight: bold;
+}
+
+.docs-main div.card {
+    text-align: justify;
+    direction: rtl;
+  }
 
 /* Animations */
 @keyframes slideInFromLeft {
