@@ -221,6 +221,17 @@ img {
     margin: 0 10px;
 }
 
+/* Features */
+
+.features-head {
+    text-align: right;
+}
+
+.features-head img {
+  width: 200px;
+  justify-self: flex-start;
+}
+
 /* Animations */
 @keyframes slideInFromLeft {
     0% {
